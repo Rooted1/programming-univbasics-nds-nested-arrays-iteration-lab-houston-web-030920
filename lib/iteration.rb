@@ -34,7 +34,20 @@ def find_greater_pair(src)
   
   new_array = []
   
-  
+  row_index = 0 
+   while row_index < src.count do 
+     
+     larger_num = src[row_index][0] 
+     
+     if larger_num < src[row_index][1]
+       larger_num = src[row_index][1]
+      end 
+      
+      new_array << larger_num
+     
+     
+     row_index += 1 
+    end 
   
   
 end
