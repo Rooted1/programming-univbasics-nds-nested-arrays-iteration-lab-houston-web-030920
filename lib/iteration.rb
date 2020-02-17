@@ -19,7 +19,7 @@
     while element_index < array_1[row_index].count  do 
       
     
-      p "I love #{array_1[row_index][element_index]} and #{array_1[row_index][element_index + 1]} on my pizza"
+      p "I love #{array_1[row_index][0]} and #{array_1[row_index][1]} on my pizza"
       
 
     
