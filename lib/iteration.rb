@@ -21,12 +21,8 @@
     
       p "I love #{array_1[row_index][0]} and #{array_1[row_index][1]} on my pizza"
       
-
-    
       element_index += 1 
     end 
-    
-    # p array_1[row_index]
   
     row_index += 1 
     
