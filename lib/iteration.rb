@@ -62,6 +62,23 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  total = log10
+  total = 0 
+  
+  row_index = 0 
+  while src.count > row_index do 
+    
+    if src[row_index][0] % 2 == 0 && src[row_index][1] % 2 == 0 
+      total += src[row_index][0]
+      total += src[row_index][1]
+      
+    end 
+  
+  
+    row_index += 1 
+  
+  end 
+  return total 
+  
+  
   
 end
