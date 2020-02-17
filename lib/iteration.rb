@@ -49,6 +49,7 @@ def find_greater_pair(src)
      row_index += 1 
     end 
   
+  return new_array
   
 end
 
