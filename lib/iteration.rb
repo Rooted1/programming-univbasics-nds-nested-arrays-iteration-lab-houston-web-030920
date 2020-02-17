@@ -21,6 +21,8 @@ def join_ingredients(src)
     
   end 
   
+  return new_array
+  
 end
 
 #--------------------------------
